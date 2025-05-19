@@ -1,0 +1,66 @@
+.contact {
+  padding: 2rem;
+  background-color: #fdf4e3; /* light brown */
+  color: #333;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-card {
+  background-color: #1f1f1f;
+  border-left: 3px solid #f9c74f;
+  border-radius: 10px;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+.shop-name {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-item h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.contact-item p, .contact-item a {
+  margin: 0.25rem 0 0;
+  font-size: 0.95rem;
+  color: #ccc;
+  
+}
+
+.contact-icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 4px;
+}
+
+.map iframe {
+  border-radius: 10px;
+  width: 100%;
+}

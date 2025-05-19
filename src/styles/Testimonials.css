@@ -1,0 +1,81 @@
+
+/* src/styles/Testimonials.css */
+
+/* Testimonials Section */
+.testimonials {
+  padding: 2rem;
+  background-color: gray;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.testimonial-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.testimonial-card {
+  background-color: burlywood;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.testimonial-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+} 
+
+
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-card p {
+  font-style: italic;
+  color: #555;
+}
+
+.testimonial-card h4 {
+  font-weight: bold;
+  color: #333;
+}
+
+.testimonial-card p:last-child {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Book Now Button */
+.book-now {
+  margin-top: 2rem;
+}
+
+.book-now .btn {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background-color: #007bff;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.book-now .btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
